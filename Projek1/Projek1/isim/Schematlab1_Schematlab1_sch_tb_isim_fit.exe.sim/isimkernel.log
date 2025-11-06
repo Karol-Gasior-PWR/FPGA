@@ -1,0 +1,12 @@
+Command line:
+   Schematlab1_Schematlab1_sch_tb_isim_fit.exe
+     -simmode  gui
+     -sdfmax  /UUT/=netgen/fit/Schematlab1_timesim.sdf
+     -sdfroot  /UUT
+     -simrunnum  0
+     -socket  49758
+
+Fri Oct 10 10:18:36 2025
+
+
+ Elaboration Time: 0.03125 sec

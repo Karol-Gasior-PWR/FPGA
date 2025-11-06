@@ -1,0 +1,9 @@
+V3 5
+FL /home/karol/Desktop/UCISW/Projek1/test/pierwszy.vhf 2025/10/24.02:26:45 P.20131013
+EN work/pierwszy 1761265954 \
+      FL /home/karol/Desktop/UCISW/Projek1/test/pierwszy.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/pierwszy/BEHAVIORAL 1761265955 \
+      FL /home/karol/Desktop/UCISW/Projek1/test/pierwszy.vhf EN work/pierwszy 1761265954 \
+      CP AND2

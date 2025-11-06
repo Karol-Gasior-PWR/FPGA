@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/karol/Desktop/UCISW/Projek1/test/pierwszy_pierwszy_sch_tb_isim_beh.exe" -prj "/home/karol/Desktop/UCISW/Projek1/test/pierwszy_pierwszy_sch_tb_beh.prj" "work.pierwszy_pierwszy_sch_tb" 

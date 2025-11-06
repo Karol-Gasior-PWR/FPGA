@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/lab/Documents/ISEProjects/Projek1/Schematlab1_isim_beh.exe" -prj "C:/Users/lab/Documents/ISEProjects/Projek1/Schematlab1_beh.prj" "work.Schematlab1" 

@@ -1,0 +1,26 @@
+V3 19
+FL C:/Users/lab/Documents/ISEProjects/Projek1/Schematlab1.vhf 2025/10/10.09:34:23 P.20131013
+EN work/Schematlab1 1760085692 \
+      FL C:/Users/lab/Documents/ISEProjects/Projek1/Schematlab1.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Schematlab1/BEHAVIORAL 1760085693 \
+      FL C:/Users/lab/Documents/ISEProjects/Projek1/Schematlab1.vhf \
+      EN work/Schematlab1 1760085692 CP AND2B1 CP AND4B3 CP OR4 CP AND2 CP AND3B3 \
+      CP OR3 CP XOR2 CP INV
+FL C:/Users/lab/Documents/ISEProjects/Projek1/Zadanie2.vhf 2025/10/10.10:41:26 P.20131013
+EN work/Schematlab1_MUSER_Zadanie2 1760085688 \
+      FL C:/Users/lab/Documents/ISEProjects/Projek1/Zadanie2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Schematlab1_MUSER_Zadanie2/BEHAVIORAL 1760085689 \
+      FL C:/Users/lab/Documents/ISEProjects/Projek1/Zadanie2.vhf \
+      EN work/Schematlab1_MUSER_Zadanie2 1760085688 CP AND2B1 CP AND4B3 CP OR4 \
+      CP AND2 CP AND3B3 CP OR3 CP XOR2 CP INV
+EN work/Zadanie2 1760085690 \
+      FL C:/Users/lab/Documents/ISEProjects/Projek1/Zadanie2.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/Zadanie2/BEHAVIORAL 1760085691 \
+      FL C:/Users/lab/Documents/ISEProjects/Projek1/Zadanie2.vhf EN work/Zadanie2 1760085690 \
+      CP Schematlab1_MUSER_Zadanie2 CP HexTo7Seg

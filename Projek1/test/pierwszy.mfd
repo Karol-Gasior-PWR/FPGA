@@ -1,0 +1,38 @@
+MDF Database:  version 1.0
+MDF_INFO | pierwszy | XC9572XL-10-PC44
+MACROCELL | 0 | 7 | Y_1_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | X<1>  | X<0>
+INPUTP | 2 | 83 | 92
+EQ | 1 | 
+   Y<1> = X<1> & X<0>;
+
+MACROCELL | 2 | 1 | Y_2_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | X<1>  | X<2>
+INPUTP | 2 | 83 | 89
+EQ | 1 | 
+   Y<2> = X<1> & X<2>;
+
+MACROCELL | 1 | 1 | Y_3_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 2 | X<2>  | X<3>
+INPUTP | 2 | 89 | 3
+EQ | 1 | 
+   Y<3> = X<2> & X<3>;
+
+MACROCELL | 0 | 1 | Y_0_OBUF
+ATTRIBUTES | 264962 | 0
+INPUTS | 1 | X<0>
+INPUTP | 1 | 92
+EQ | 1 | 
+   Y<0> = X<0>;
+
+PIN | X<1> | 64 | 0 | N/A | 83 | 2 | 0 | 7 | 2 | 1
+PIN | X<0> | 64 | 0 | N/A | 92 | 2 | 0 | 7 | 0 | 1
+PIN | X<2> | 64 | 0 | N/A | 89 | 2 | 2 | 1 | 1 | 1
+PIN | X<3> | 64 | 0 | N/A | 3 | 1 | 1 | 1
+PIN | Y<1> | 536871040 | 0 | N/A | 15
+PIN | Y<2> | 536871040 | 0 | N/A | 29
+PIN | Y<3> | 536871040 | 0 | N/A | 87
+PIN | Y<0> | 536871040 | 0 | N/A | 11
