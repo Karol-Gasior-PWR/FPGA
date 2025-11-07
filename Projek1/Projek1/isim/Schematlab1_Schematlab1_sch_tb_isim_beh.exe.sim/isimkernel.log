@@ -2,14 +2,14 @@ Command line:
    Schematlab1_Schematlab1_sch_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  49747
+     -socket  44953
 
-Fri Oct 10 10:17:14 2025
+Fri Nov  7 00:03:28 2025
 
 
- Elaboration Time: 0.03125 sec
+ Elaboration Time: 0.02 sec
 
- Current Memory Usage: 5151.6 Meg
+ Current Memory Usage: 184.078 Meg
 
  Total Signals          : 77
  Total Nets             : 41
@@ -19,10 +19,11 @@ Fri Oct 10 10:17:14 2025
  Total Processes        : 13
  Total Traceable Variables  : 13
  Total Scalar Nets and Variables : 524
+Total Line Count : 16
 
- Total Simulation Time: 0.03125 sec
+ Total Simulation Time: 0.02 sec
 
- Current Memory Usage: 5151.6 Meg
+ Current Memory Usage: 259.58 Meg
 
-Fri Oct 10 10:17:31 2025
+Fri Nov  7 00:03:45 2025
 

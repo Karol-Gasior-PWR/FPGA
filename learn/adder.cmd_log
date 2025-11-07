@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "/home/karol/Desktop/UCISW/learn/adder.xst" -ofn "/home/karol/Desktop/UCISW/learn/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 adder.ngc adder.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper adder.ngd 
+xst -intstyle ise -ifn "/home/karol/Desktop/UCISW/learn/adder.xst" -ofn "/home/karol/Desktop/UCISW/learn/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 adder.ngc adder.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper adder.ngd 
+xst -intstyle ise -ifn "/home/karol/Desktop/UCISW/learn/adder.xst" -ofn "/home/karol/Desktop/UCISW/learn/adder.syr" 
+xst -intstyle ise -ifn "/home/karol/Desktop/UCISW/learn/adder.xst" -ofn "/home/karol/Desktop/UCISW/learn/adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -i -p xc9572xl-PC44-10 adder.ngc adder.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper adder.ngd 
+XSLTProcess adder_build.xml 
+tsim -intstyle ise adder adder.nga 
+hprep6 -s IEEE1149 -n adder -i adder 

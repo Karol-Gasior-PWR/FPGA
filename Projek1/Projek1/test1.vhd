@@ -36,25 +36,32 @@ BEGIN
 		Y => Y
    );
 	
-	X <= "0000",
-		X"1" after 100 ns,
-		X"2" after 200 ns,
-      X"3" after 300 ns,
-      X"4" after 400 ns,
-      X"5" after 500 ns,
-      X"6" after 600 ns,
-      X"7" after 700 ns,
-      X"8" after 800 ns,
-      X"9" after 900 ns,
-      "1010" after 1000 ns,
-      "1011" after 1100 ns,
-      "1100" after 1200 ns,
-      "1101" after 1300 ns,
-      "1110" after 1400 ns,
-      "1111" after 1500 ns,
-      X"0" after 1600 ns;
-	  
-	  
+--	X <= "0000",
+--		X"1" after 100 ns,
+--		X"2" after 200 ns,
+--      X"3" after 300 ns,
+--      X"4" after 400 ns,
+--      X"5" after 500 ns,
+--      X"6" after 600 ns,
+--      X"7" after 700 ns,
+--      X"8" after 800 ns,
+--      X"9" after 900 ns,
+--      "1010" after 1000 ns,
+--      "1011" after 1100 ns,
+--      "1100" after 1200 ns,
+--      "1101" after 1300 ns,
+--      "1110" after 1400 ns,
+--      "1111" after 1500 ns,
+--      X"0" after 1600 ns;
+PROCESS
+begin
+  for i in 0 to 15 loop
+    X <= std_logic_vector(to_unsigned(i, X'length));  -- konwersja 0..15 na 4 bity
+    wait for 100 ns;                                   -- odstęp 100 ns
+  end loop;
+  wait;  -- zatrzymaj proces po sekwencji
+end process;		
+
 -- *** Test Bench - User Defined Section ***
    --tb : PROCESS
   -- BEGIN

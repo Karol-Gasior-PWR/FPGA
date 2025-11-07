@@ -49,15 +49,15 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="Schematlab1.vm6"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Schematlab1.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Schematlab1.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Schematlab1_Schematlab1_sch_tb_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Schematlab1_Schematlab1_sch_tb_fit.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Schematlab1_Schematlab1_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Schematlab1_Schematlab1_sch_tb_isim_beh.wdb"/>
     <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Schematlab1_Schematlab1_sch_tb_isim_fit.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Schematlab1_Schematlab1_sch_tb_isim_fit.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Schematlab1_beh.prj"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Schematlab1_build.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="Schematlab1_html"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Schematlab1_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Schematlab1_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Schematlab1_ngdbuild.xrpt"/>
     <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Schematlab1_pad.csv"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Schematlab1_vhdl.prj"/>
@@ -79,7 +79,10 @@
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Zadanie2.rpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Zadanie2.stx"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Zadanie2.syr"/>
-    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Zadanie2.vhf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="Zadanie2.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="Zadanie2.vm6"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Zadanie2.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Zadanie2.xst"/>
@@ -99,10 +102,6 @@
       <branch xil_pn:name="BehavioralSim"/>
       <branch xil_pn:name="PostRouteSimulation"/>
     </file>
-    <file xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log">
-      <branch xil_pn:name="BehavioralSim"/>
-      <branch xil_pn:name="PostRouteSimulation"/>
-    </file>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="netgen"/>
     <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_NETGEN_REPORT" xil_pn:name="netgen/fit/Schematlab1_timesim.nlf"/>
     <file xil_pn:branch="PostRouteSimulation" xil_pn:fileType="FILE_SDF" xil_pn:name="netgen/fit/Schematlab1_timesim.sdf"/>
@@ -117,58 +116,48 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1760081834" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1760081834">
+    <transform xil_pn:end_ts="1762470205" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1762470205">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1760084230" xil_pn:in_ck="167600980873921" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1760084230">
+    <transform xil_pn:end_ts="1762470205" xil_pn:in_ck="-7438960544213442671" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1762470205">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="adder.vhd"/>
+      <outfile xil_pn:name="test1.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1760085268" xil_pn:in_ck="-159512538116711125" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="9063694153488121051" xil_pn:start_ts="1760085266">
+    <transform xil_pn:end_ts="1762470206" xil_pn:in_ck="-711666176985307032" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1103463205637274823" xil_pn:start_ts="1762470205">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
       <outfile xil_pn:name="Schematlab1.vhf"/>
+      <outfile xil_pn:name="Zadanie2.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1760084230" xil_pn:in_ck="-895623914250448552" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1760084230">
+    <transform xil_pn:end_ts="1762470206" xil_pn:in_ck="-3412980832509753272" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1762470206">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="Schematlab1.vhf"/>
+      <outfile xil_pn:name="Zadanie2.vhf"/>
+      <outfile xil_pn:name="adder.vhd"/>
+      <outfile xil_pn:name="test1.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1760085271" xil_pn:in_ck="-895623914250448552" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2347704578645136732" xil_pn:start_ts="1760085268">
+    <transform xil_pn:end_ts="1762470207" xil_pn:in_ck="-3412980832509753272" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8943109095668560070" xil_pn:start_ts="1762470206">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="Schematlab1_Schematlab1_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="Schematlab1_Schematlab1_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1760085271" xil_pn:in_ck="1527032728217104446" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4406888891362296463" xil_pn:start_ts="1760085271">
+    <transform xil_pn:end_ts="1762470207" xil_pn:in_ck="1527032728217104446" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1882372538653661619" xil_pn:start_ts="1762470207">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForProperties"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="Schematlab1_Schematlab1_sch_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
     </transform>
     <transform xil_pn:end_ts="1760077122" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1760077122">
       <status xil_pn:value="SuccessfullyRun"/>
@@ -178,8 +167,10 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Schematlab1.vhf"/>
       <outfile xil_pn:name="Zadanie2.vhf"/>
     </transform>
@@ -187,8 +178,11 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="Schematlab1.ngr"/>
       <outfile xil_pn:name="Zadanie2.jhd"/>
@@ -269,6 +263,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>

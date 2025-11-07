@@ -1,0 +1,6 @@
+V3 3
+FL /home/karol/Desktop/UCISW/learn/adder.vhd 2025/11/07.01:02:19 P.20131013
+EN work/adder 1762473741 FL /home/karol/Desktop/UCISW/learn/adder.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/adder/Behavioral 1762473742 \
+      FL /home/karol/Desktop/UCISW/learn/adder.vhd EN work/adder 1762473741

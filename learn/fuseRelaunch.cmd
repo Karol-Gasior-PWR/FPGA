@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/karol/Desktop/UCISW/learn/test_adder_isim_beh.exe" -prj "/home/karol/Desktop/UCISW/learn/test_adder_beh.prj" "work.test_adder" 

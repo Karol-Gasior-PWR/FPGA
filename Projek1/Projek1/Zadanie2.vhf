@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : Zadanie2.vhf
--- /___/   /\     Timestamp : 10/10/2025 10:41:26
+-- /___/   /\     Timestamp : 11/06/2025 23:11:33
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family xc9500xl -flat -suppress -vhdl C:/Users/lab/Documents/ISEProjects/Projek1/Zadanie2.vhf -w C:/Users/lab/Documents/ISEProjects/Projek1/Zadanie2.sch
+--Command: sch2hdl -intstyle ise -family xc9500xl -flat -suppress -vhdl /home/karol/Desktop/UCISW/Projek1/Projek1/Zadanie2.vhf -w /home/karol/Desktop/UCISW/Projek1/Projek1/Zadanie2.sch
 --Design Name: Zadanie2
 --Device: xc9500xl
 --Purpose:

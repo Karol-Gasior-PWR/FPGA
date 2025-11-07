@@ -7,11 +7,11 @@
 -- \   \   \/     Version : 14.7
 --  \   \         Application : sch2hdl
 --  /   /         Filename : Schematlab1.vhf
--- /___/   /\     Timestamp : 10/10/2025 09:34:23
+-- /___/   /\     Timestamp : 11/06/2025 23:11:33
 -- \   \  /  \ 
 --  \___\/\___\ 
 --
---Command: sch2hdl -intstyle ise -family xc9500xl -flat -suppress -vhdl C:/Users/lab/Documents/ISEProjects/Projek1/Schematlab1.vhf -w C:/Users/lab/Documents/ISEProjects/Projek1/Schematlab1.sch
+--Command: sch2hdl -intstyle ise -family xc9500xl -flat -suppress -vhdl /home/karol/Desktop/UCISW/Projek1/Projek1/Schematlab1.vhf -w /home/karol/Desktop/UCISW/Projek1/Projek1/Schematlab1.sch
 --Design Name: Schematlab1
 --Device: xc9500xl
 --Purpose:

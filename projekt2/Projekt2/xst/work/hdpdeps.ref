@@ -1,0 +1,9 @@
+V3 13
+FL C:/Users/lab/Documents/ISEProjects/Projekt2/przerzutnik.vhf 2025/10/24.10:16:31 P.20131013
+FL D:/Projekt2/przerzutnik.vhf 2025/10/24.10:16:32 P.20131013
+EN work/przerzutnik 1761295346 FL D:/Projekt2/przerzutnik.vhf \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/przerzutnik/BEHAVIORAL 1761295347 \
+      FL D:/Projekt2/przerzutnik.vhf EN work/przerzutnik 1761295346 CP FDCE \
+      CP AND3B2 CP AND3B1 CP OR5 CP AND4 CP AND2B2 CP AND3B3 CP AND4B1

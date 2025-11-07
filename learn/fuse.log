@@ -1,0 +1,22 @@
+Running: /home/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/karol/Desktop/UCISW/learn/test_adder_isim_beh.exe -prj /home/karol/Desktop/UCISW/learn/test_adder_beh.prj work.test_adder 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/karol/Desktop/UCISW/learn/adder.vhd" into library work
+Parsing VHDL file "/home/karol/Desktop/UCISW/learn/test_adder.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 84592 KB
+Fuse CPU Usage: 370 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity adder [adder_default]
+Compiling architecture behavior of entity test_adder
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Built simulation executable /home/karol/Desktop/UCISW/learn/test_adder_isim_beh.exe
+Fuse Memory Usage: 2229196 KB
+Fuse CPU Usage: 430 ms
+GCC CPU Usage: 130 ms

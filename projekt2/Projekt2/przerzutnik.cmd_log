@@ -1,0 +1,15 @@
+xst -intstyle ise -ifn "C:/Users/lab/Documents/ISEProjects/Projekt2/przerzutnik.xst" -ofn "C:/Users/lab/Documents/ISEProjects/Projekt2/przerzutnik.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 przerzutnik.ngc przerzutnik.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper przerzutnik.ngd 
+XSLTProcess przerzutnik_build.xml 
+tsim -intstyle ise przerzutnik przerzutnik.nga 
+taengine -intstyle ise -f przerzutnik -w --format html1 -l przerzutnik_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n przerzutnik -i przerzutnik 
+xst -intstyle ise -ifn "D:/Projekt2/przerzutnik.xst" -ofn "D:/Projekt2/przerzutnik.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc ZL-9572.ucf -p xc9572xl-PC44-10 przerzutnik.ngc przerzutnik.ngd  
+cpldfit -intstyle ise -p xc9572xl-10-PC44 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper przerzutnik.ngd 
+XSLTProcess przerzutnik_build.xml 
+tsim -intstyle ise przerzutnik przerzutnik.nga 
+taengine -intstyle ise -f przerzutnik -w --format html1 -l przerzutnik_html/tim/timing_report.htm 
+hprep6 -s IEEE1149 -n przerzutnik -i przerzutnik 
+sch2sym -intstyle ise -family xc9500xl -refsym przerzutnik D:/Projekt2/przerzutnik.sch D:/Projekt2/przerzutnik.sym 

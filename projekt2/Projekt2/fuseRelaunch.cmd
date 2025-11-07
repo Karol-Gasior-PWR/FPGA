@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/karol/Desktop/UCISW/projekt2/Projekt2/przerzutnik_przerzutnik_sch_tb_isim_beh.exe" -prj "/home/karol/Desktop/UCISW/projekt2/Projekt2/przerzutnik_przerzutnik_sch_tb_beh.prj" "work.przerzutnik_przerzutnik_sch_tb" 

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Projekt2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="przerzutnik.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="przerzutnik.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="przerzutnik.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="przerzutnik.jed"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="przerzutnik.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="przerzutnik.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="przerzutnik.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="przerzutnik.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="przerzutnik.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="przerzutnik.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="przerzutnik.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="przerzutnik.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="przerzutnik.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="przerzutnik.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="przerzutnik.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="przerzutnik.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="przerzutnik.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="przerzutnik.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="przerzutnik.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="przerzutnik.tspec"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="przerzutnik.vhf">
+      <branch xil_pn:name="Implementation"/>
+      <branch xil_pn:name="BehavioralSim"/>
+    </file>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="przerzutnik.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="przerzutnik.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="przerzutnik.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="przerzutnik_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="przerzutnik_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="przerzutnik_html"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="przerzutnik_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="przerzutnik_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="przerzutnik_pad.csv"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="przerzutnik_przerzutnik_sch_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="przerzutnik_przerzutnik_sch_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="przerzutnik_przerzutnik_sch_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="przerzutnik_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="przerzutnik_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="przerzutnik_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1761292269" xil_pn:name="TRANEXT_compLibraries_CPLD" xil_pn:prop_ck="660121163389241621" xil_pn:start_ts="1761292269">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1762470827" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1762470827">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1762470864" xil_pn:in_ck="167600985617605" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1762470864">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="test5.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1762470828" xil_pn:in_ck="6827098269378433960" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="8368303314134779949" xil_pn:start_ts="1762470827">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="przerzutnik.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1762470864" xil_pn:in_ck="-4925271888228300529" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1762470864">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="przerzutnik.vhf"/>
+      <outfile xil_pn:name="test5.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1762470866" xil_pn:in_ck="-4925271888228300529" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5862736776822737006" xil_pn:start_ts="1762470864">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="przerzutnik_przerzutnik_sch_tb_beh.prj"/>
+      <outfile xil_pn:name="przerzutnik_przerzutnik_sch_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1762470866" xil_pn:in_ck="2960542686438561463" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-14829803478496065" xil_pn:start_ts="1762470866">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="przerzutnik_przerzutnik_sch_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1761294555" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1761294555">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1761295754" xil_pn:in_ck="6827098269378433960" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6482655590881790162" xil_pn:start_ts="1761295752">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="przerzutnik.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1761294562" xil_pn:in_ck="141435169788748278" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5810199464201723366" xil_pn:start_ts="1761294562">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>
